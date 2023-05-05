@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css';
-import { BrowserRouter, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 export default function MtobiOptions({ arrayItems, selectOptions }) {
