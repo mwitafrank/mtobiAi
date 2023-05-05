@@ -1,5 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 .App {
   text-align: center;
+}
+
+.mytextarea {
+  background-color: transparent;
+  border: 0.5px solid rgb(255, 255, 255);
+}
+
+textarea {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.mygrid {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  background-color: whitesmoke;
+  color: #212121;
+  padding: 2px 8px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btnbtn {
+  /* background-color: whitesmoke; */
+  border: 1px solid whitesmoke;
+
+  color: whitesmoke;
+  /* color: #212121; */
+  padding: 4px 28px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.middle {
+  background-color: #212121;
+}
+
+.btnbtn:hover {
+  background-color: whitesmoke;
+  color: #212121;
+}
+.grid-child {
+  border: 1px solid whitesmoke;
+  padding: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.grid-child:hover {
+  background-color: white;
+  color: #212121;
+}
+
+.grid-child h4 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .App-logo {
@@ -21,6 +83,12 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-header2 {
+  background-color: #282c34;
+  min-height: 100vh;
+  padding-top: 50px;
   color: white;
 }
 
