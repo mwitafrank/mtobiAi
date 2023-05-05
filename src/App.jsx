@@ -1,8 +1,6 @@
 import './App.css';
 
-import { Configuration, OpenAIApi } from 'openai'
 import MtobiOptions from './components/MtobiOptions';
-import { arrayItems } from './MyOptions/index'
 
 import { Route, Routes } from 'react-router-dom'
 
